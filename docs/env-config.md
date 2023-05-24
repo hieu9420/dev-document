@@ -5,7 +5,13 @@ sidebar_position: 2
 slug: /env-congif
 ---
 
-## Cài đặt môi trường
+Các công cụ, phần mềm dùng chung cho tất cả dự án mà bạn nên cài:
+
+- SSMS: Thao tác với cơ sở dữ liệu. Tải về [tại đây][ssms]
+- Git: Tải về [tại đây][git]
+- Source Tree: công cụ quản lý mã nguồn. Tải về [tại đây][source tree]
+
+## ERP
 
 Bước 1: cài đặt `NodeJs` tại [https://nodejs.org/en](https://nodejs.org/en).
 
@@ -33,9 +39,17 @@ Bước 4: Cấu hình `Visual code`
 - Cấu hình `Editor: Format On Save` thành true
 - Cấu hình `Editor: Default Formatter`: Chọn Prettier
 
-Bước 4: Cài `Git` tại [https://git-scm.com/](https://git-scm.com/)
+## IoT
 
-Bước 5: Cài công cụ quản lý source code `Source tree` tại [https://www.sourcetreeapp.com/](https://www.sourcetreeapp.com/)
+- UI: QT design 5, Python, database: SQL Lite 3
+- Trình soạn thảo đề xuất: Pycharm. Tải về [tại đây][pycharm]
+- Python. Tải về [tại đây][python]
+- DB Browser for SQLite. Tải về [tại đây][sqlite]
+
+## Mobile
+
+- Frontend: Flutter, backend: Nestjs, Database: SQL Lite, MS SQL
+- Trình soạn thảo đề xuất: Visual Studio Code.
 
 ## Khắc phục lỗi Policy trên visual code
 
@@ -48,3 +62,10 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 ```bash title="Nếu báo lỗi thì chạy thử câu sau, chọn yes to all"
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
+
+[ssms]: https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16
+[git]: https://git-scm.com/
+[source tree]: https://www.sourcetreeapp.com/
+[pycharm]: https://www.jetbrains.com/pycharm/download/#section=windows
+[python]: https://www.python.org/downloads/
+[sqlite]: https://sqlitebrowser.org/dl/

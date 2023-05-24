@@ -5,13 +5,19 @@ sidebar_position: 1
 slug: /rule
 ---
 
+Chào mừng các bạn đến với bài học nhập môn lập trình đầu tiên được phát triển và biên soạn bởi đội ngũ lập trình Oryza JSC. Hy vọng những tài liệu và bài học bên dưới sẽ giúp các bạn vững vàng hơn trong sự nghiệp coder
+
 ## Chung
 
 - Không đẩy tất cả các file biến môi trường: **.env\*** lên git, hoặc để lộ ra bên ngoài
 - Đặt tên biến, tên file có ý nghĩa, sát với chức năng đang làm
 - Cập nhật công việc, trạng thái công việc lên oteam
-- Kéo source code về thì luôn **npm i** lại
+- Kéo source code về thì luôn **`npm i`** lại
 - Sai quy tắc chung ký đầu trả bài về làm lại
+- Tài khoản git phải đăng ký bằng email công ty: @oryza.vn
+- Không sử dụng tai nghe nghe nhạc, chơi game, xem phim... trong giờ làm việc
+- Ghi chú ở mọi nơi - tránh để miss công việc từ cấp trên
+- Tuân thủ tuyệt đối chính sách bảo mật của công ty
 
 ## FrontEnd
 
