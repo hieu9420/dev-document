@@ -34,29 +34,66 @@ const config = {
 
   presets: [
     [
-      "classic",
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      "@docusaurus/preset-classic",
+      {
         docs: {
+          routeBasePath: "docs",
+          path: "docs",
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          lastVersion: "current",
+          onlyIncludeVersions: ["current"],
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-      }),
+      },
     ],
   ],
+
+  plugins: [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "docs-tester",
+        path: "docs-tester",
+        routeBasePath: "docs-tester",
+        sidebarPath: require.resolve("./sidebars.js"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "file-uploads",
+        path: "file-uploads",
+        routeBasePath: "file-uploads",
+        sidebarPath: require.resolve("./sidebars.js"),
+      },
+    ],
+  ],
+  // [
+  //   "classic",
+  //   /** @type {import('@docusaurus/preset-classic').Options} */
+  //   ({
+  //     docs: {
+  //       sidebarPath: require.resolve("./sidebars.js"),
+  //       // Please change this to your repo.
+  //       // Remove this to remove the "edit this page" links.
+  //       editUrl:
+  //         "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+  //     },
+  //     blog: {
+  //       showReadingTime: true,
+  //       // Please change this to your repo.
+  //       // Remove this to remove the "edit this page" links.
+  //       editUrl:
+  //         "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+  //     },
+  //     theme: {
+  //       customCss: require.resolve("./src/css/custom.css"),
+  //     },
+  //   }),
+  // ],
+  // ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -74,9 +111,21 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "Tài liệu",
+            label: "Lập trình",
           },
-          { to: "/blog", label: "Bài viết", position: "left" },
+          {
+            to: "/docs-tester/intro",
+            label: "Tester",
+            position: "left",
+            activeBaseRegex: `/docs-tester/`,
+          },
+          {
+            to: "/file-uploads/intro",
+            label: "Tải về",
+            position: "left",
+            activeBaseRegex: `/file-uploads/`,
+          },
+          // { to: "/blog", label: "Bài viết", position: "left" },
           {
             href: "https://github.com/hieu9420",
             label: "GitHub",
@@ -91,16 +140,8 @@ const config = {
             title: "Tài liệu",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
-              },
-              {
-                label: "Front end",
-                to: "/docs/intro",
-              },
-              {
-                label: "Back end",
-                to: "/docs/intro",
+                label: "Lập trình",
+                to: "/docs/rule",
               },
             ],
           },
