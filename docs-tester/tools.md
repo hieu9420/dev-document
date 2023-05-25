@@ -3,6 +3,9 @@ title: Công cụ và môi trường
 sidebar_label: "Công cụ và môi trường"
 sidebar_position: 2
 slug: /docs-tester/tools
+authors: Nguyễn Việt Minh Anh
+tags: [Tools, Tester]
+date: 2021-09-13T18:00
 ---
 
 # <span class="color-tester" >Cài đặt các công cụ test</span>
@@ -105,6 +108,12 @@ _<span class="color-tester" >Bước 5:</span>_ Test API
 - Xem thời gian phản hồi ở tab "Time" và lọc từ thời gian phản hồi lâu nhất (xem xét API có thời gian phản hồi lâu để log bug)
 - Xem Status code và so sánh với status trong docs
 - Lưu ý khi log bug dẫn kèm URL của API đang lỗi
+
+<div class="text-right">
+
+_Author: **Nguyễn Việt Minh Anh**_
+
+</div>
 
 [chrome]: https://www.google.com/intl/vi_vn/chrome/
 [Firefox]: https://www.mozilla.org/vi/firefox/new/

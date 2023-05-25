@@ -28,3 +28,9 @@ const result = Array.filter((f: any) =>
   removeVietnameseAccent(f.Name).includes(stringWithoutAccent)
 );
 ```
+
+<div class="text-right">
+
+_Author: **Lê Thành Hiếu**_
+
+</div>
