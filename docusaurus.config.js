@@ -134,16 +134,8 @@ const config = {
             title: "Tài liệu",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
-              },
-              {
-                label: "Front end",
-                to: "/docs/intro",
-              },
-              {
-                label: "Back end",
-                to: "/docs/intro",
+                label: "Lập trình",
+                to: "/docs/rule",
               },
             ],
           },
