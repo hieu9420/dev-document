@@ -60,15 +60,15 @@ const config = {
         sidebarPath: require.resolve("./sidebars.js"),
       },
     ],
-    // [
-    //   '@docusaurus/plugin-content-docs',
-    //   {
-    //     id: 'docs-system',
-    //     path: 'docs-system',
-    //     routeBasePath: 'docs-system',
-    //     sidebarPath: require.resolve('./sidebars.js'),
-    //   },
-    // ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "file-uploads",
+        path: "file-uploads",
+        routeBasePath: "file-uploads",
+        sidebarPath: require.resolve("./sidebars.js"),
+      },
+    ],
   ],
   // [
   //   "classic",
@@ -119,7 +119,13 @@ const config = {
             position: "left",
             activeBaseRegex: `/docs-tester/`,
           },
-          { to: "/blog", label: "Bài viết", position: "left" },
+          {
+            to: "/file-uploads/intro",
+            label: "Tải về",
+            position: "left",
+            activeBaseRegex: `/file-uploads/`,
+          },
+          // { to: "/blog", label: "Bài viết", position: "left" },
           {
             href: "https://github.com/hieu9420",
             label: "GitHub",
