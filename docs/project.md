@@ -19,3 +19,9 @@ ORYZA
     ├──Bãi xe thông minh (Smart Parking)
     ├──Báo động (Obox Alarm)
 ```
+
+<div class="text-right">
+
+_Author: **Lê Thành Hiếu**_
+
+</div>

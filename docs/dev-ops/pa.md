@@ -15,3 +15,9 @@ slug: /pa
 >
 > Record: `www` và `@` là mặc định. trỏ về địa chỉ ip của server  
 > Thêm subdomain: tạo record loại `A`, host là tên subdomain. địa chỉ trỏ về server và lưu lại
+
+<div class="text-right">
+
+_Author: **Lê Thành Hiếu**_
+
+</div>

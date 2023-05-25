@@ -66,3 +66,9 @@ Dùng router và Link để chuyển đổi ngôn ngữ
 ```ts
 <Link href={"/en" + router.asPath} passHref locale="en"></Link>
 ```
+
+<div class="text-right">
+
+_Author: **Lê Thành Hiếu**_
+
+</div>

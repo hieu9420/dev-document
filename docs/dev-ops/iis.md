@@ -95,5 +95,11 @@ localhost:3002
 
 Tận hưởng thành quả của bạn trên IP public. Chúc bạn thành công!
 
+<div class="text-right">
+
+_Author: **Lê Thành Hiếu**_
+
+</div>
+
 [rewrite]: https://www.iis.net/downloads/microsoft/url-rewrite
 [convert]: https://www.sslshopper.com/ssl-converter.html

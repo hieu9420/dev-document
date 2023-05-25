@@ -28,3 +28,9 @@ slug: /git-flow
 - Push code bản thân lên nhánh cần tạo `Pull Request` để hợp nhất với `dev`
 - Khi có bug trên nhánh `dev` thì tạo `feature`
 - Khi có bug trên `master` thì tạo `hot fix`
+
+<div class="text-right">
+
+_Author: **Lê Thành Hiếu**_
+
+</div>

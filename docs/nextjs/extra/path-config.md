@@ -35,3 +35,9 @@ Sử dụng
 ```ts
 import { CodeComp, MainLayout } from "@/components/common";
 ```
+
+<div class="text-right">
+
+_Author: **Lê Thành Hiếu**_
+
+</div>

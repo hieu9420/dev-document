@@ -63,6 +63,12 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
+<div class="text-right">
+
+_Author: **Lê Thành Hiếu**_
+
+</div>
+
 [ssms]: https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16
 [git]: https://git-scm.com/
 [source tree]: https://www.sourcetreeapp.com/

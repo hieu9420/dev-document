@@ -60,3 +60,9 @@ ORYZA
 | Họ và tên    | Vị trí   | Số điện thoại                | Email          | Ngày bắt đầu | Ngày kết thúc |
 | ------------ | -------- | ---------------------------- | -------------- | ------------ | ------------- |
 | Trịnh Anh Vũ | Thực tập | [0374806525](tel:0374806525) | vu.ta@oryza.vn | 27/02/2023   | 27/05/2023    |
+
+<div class="text-right">
+
+_Author: **Lê Thành Hiếu**_
+
+</div>
