@@ -63,6 +63,15 @@ const config = {
     [
       "@docusaurus/plugin-content-docs",
       {
+        id: "docs-tech",
+        path: "docs-tech",
+        routeBasePath: "docs-tech",
+        sidebarPath: require.resolve("./sidebars.js"),
+      },
+    ],
+    [
+      "@docusaurus/plugin-content-docs",
+      {
         id: "file-uploads",
         path: "file-uploads",
         routeBasePath: "file-uploads",
@@ -101,7 +110,7 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "Dev Document",
+        title: "Oryza Document",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
@@ -118,6 +127,12 @@ const config = {
             label: "Tester",
             position: "left",
             activeBaseRegex: `/docs-tester/`,
+          },
+          {
+            to: "/docs-tech/intro",
+            label: "Công nghệ",
+            position: "left",
+            activeBaseRegex: `/docs-tech/`,
           },
           {
             to: "/file-uploads/intro",
