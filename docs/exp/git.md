@@ -2,7 +2,7 @@
 title: Git từ cơ bản đến nấng cao
 sidebar_label: "Git"
 sidebar_position: 1
-slug: /git
+slug: /exp/git
 ---
 
 ## Mức độ cơ bản

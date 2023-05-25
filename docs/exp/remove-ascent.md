@@ -2,7 +2,7 @@
 title: Tìm kiếm gần đúng
 sidebar_label: "Tìm kiếm gần đúng"
 sidebar_position: 2
-slug: /remove-ascent
+slug: /exp/remove-ascent
 ---
 
 ```ts title="Hàm"
