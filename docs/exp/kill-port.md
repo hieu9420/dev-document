@@ -14,3 +14,9 @@ netstat -ano | findstr :<PORT>
 ```bash title="kill port đang chiếm dụng thông qua PID"
 taskkill /PID <PID> /F
 ```
+
+<div class="text-right">
+
+_Author: **Lê Thành Hiếu**_
+
+</div>

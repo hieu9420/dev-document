@@ -5,8 +5,6 @@ sidebar_position: 3
 slug: /docs-tester/web-app
 ---
 
-# QUY TRÌNH TEST UI (WEB APPLICATIONS)
-
 ### <span class="color-tester"  >Kiểm tra page source</span>
 
 ---
@@ -164,3 +162,9 @@ slug: /docs-tester/web-app
 | 768px      | màn hình smartphone  |
 | 1024px     |   màn hình tablet    |
 | 1200px     |     màn hình PC      |
+
+<div class="text-right">
+
+_Author: **Nguyễn Thị Thi Vũ**_
+
+</div>

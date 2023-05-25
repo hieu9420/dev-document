@@ -410,5 +410,11 @@ Trong phần khai báo Tôi là một chuỗi duy nhất bao gồm : mã thông 
 
 Móc useInsertionEffect là một móc React mới khác hoạt động với các thư viện. Tuy nhiên, thay vì lưu trữ dữ liệu, hook useInsertionEffect hoạt động với các thư viện CSS-in-JS. Móc này giải quyết các vấn đề về hiệu suất kết xuất kiểu. Nó tạo kiểu cho DOM trước khi đọc bố cục trong hook useLayoutEffect.
 
+<div class="text-right">
+
+_Author: **Nguyễn Văn Phần**_
+
+</div>
+
 [useRef]: https://viblo.asia/p/useref-va-forwardref-trong-react-1VgZv6dYZAw
 [useDebugValue]: https://viblo.asia/p/tim-hieu-ve-react-hook-su-dung-usedebugvalue-OeVKB9DE5kW

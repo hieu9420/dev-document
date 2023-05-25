@@ -50,3 +50,9 @@ tsconfig.json //File cấu hình typescript
 >
 > - Các biến môi trường muốn truy cập được trên trình duyệt phải thêm tiền tố \*\*NEXT_PUBLIC\*\*  
 >   Ví dụ: NEXT_PUBLIC_API_PATH=http://localhost:3100/
+
+<div class="text-right">
+
+_Author: **Lê Thành Hiếu**_
+
+</div>

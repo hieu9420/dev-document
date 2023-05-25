@@ -19,3 +19,9 @@ Giúp bạn code nhanh hơn!
 10. `Ctrl +`, `Ctrl -`: Phóng to thu nhỏ màn hình
 11. `Ctrl + Backspace`: Xoá cụm từ
 12. `Ctrl + N`: Tạo file mới
+
+<div class="text-right">
+
+_Author: **Lê Thành Hiếu**_
+
+</div>

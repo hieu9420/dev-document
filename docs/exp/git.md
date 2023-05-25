@@ -263,3 +263,9 @@ Những câu lệnh ở mức độ nâng cao thường ít được sử dụng
     ```bash
     $ git whatchanged
     ```
+
+<div class="text-right">
+
+_Author: **Lê Thành Hiếu**_
+
+</div>
