@@ -3,6 +3,7 @@ title: Quy trình kiểm thử web application
 sidebar_label: "Web Application Test"
 sidebar_position: 3
 slug: /docs-tester/web-app
+tags: [Tester]
 ---
 
 ### <span class="color-tester"  >Kiểm tra page source</span>
