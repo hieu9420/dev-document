@@ -6,16 +6,10 @@ import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 
 import styles from "./index.module.css";
+import { authorList } from "../mocks/author";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
-  const authorList = [
-    { name: "Lê Thành Hiếu", total: 5, tag: "Lê Thành Hiếu" },
-    { name: "Nguyễn Văn Phần", total: 1, tag: "Nguyễn Văn Phần" },
-    { name: "Nguyễn Việt Minh Anh", total: 1, tag: "Nguyễn Việt Minh Anh" },
-    { name: "Nguyễn Thị Thi Vũ", total: 1, tag: "Nguyễn Thị Thi Vũ" },
-    { name: "Nguyễn Hoàng Lâm", total: 1, tag: "Nguyễn Hoàng Lâm" },
-  ];
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
@@ -29,7 +23,7 @@ function HomepageHeader() {
             Docusaurus Tutorial - 5min ⏱️
           </Link>
         </div> */}
-        <h2>Đội ngũ đóng góp</h2>
+        <h2>Đội ngũ đóng góp nội dung</h2>
 
         <div
           style={{
@@ -37,25 +31,37 @@ function HomepageHeader() {
             flexDirection: "row",
             justifyContent: "center",
             alignItems: "center",
+            flexWrap: "wrap",
+            gap: "5px",
           }}
         >
-          {authorList.map((item, index) => (
-            <li
-              key={index}
-              style={{
-                textAlign: "left",
-                width: "fit-content",
-                marginRight: 15,
-              }}
-            >
-              {/* <Link
-                className="button button--secondary button--lg"
-                to="/docs/intro"
-              > */}
-              {item.name}
-              {/* </Link> */}
-            </li>
-          ))}
+          {authorList
+            .sort((a, b) => b.total - a.total)
+            .map((item, index) => (
+              <div
+                key={index}
+                style={{
+                  textAlign: "left",
+                  width: "fit-content",
+                  display: "flex",
+                  flexDirection: "row",
+                  fontWeight: "500",
+                }}
+                className="button button--secondary"
+              >
+                {item.name}
+                <div
+                  style={{
+                    background: "#78C6E720",
+                    padding: "0 5px",
+                    marginLeft: 10,
+                    borderRadius: 2,
+                  }}
+                >
+                  {item.total}
+                </div>
+              </div>
+            ))}
         </div>
       </div>
     </header>
