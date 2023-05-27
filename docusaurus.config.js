@@ -156,12 +156,20 @@ const config = {
             items: [
               {
                 label: "Lập trình",
-                to: "/docs/rule",
+                to: "/docs/general/rule",
+              },
+              {
+                label: "Tester",
+                to: "/docs-tester/intro",
+              },
+              {
+                label: "Công nghệ",
+                to: "/docs-tech/intro",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Dev Document`,
+        copyright: `Copyright © ${new Date().getFullYear()} Oryza Document`,
       },
       prism: {
         theme: lightCodeTheme,
