@@ -2,7 +2,7 @@
 title: Giới thiệu phòng ban
 sidebar_label: "Cấu trúc phòng ban"
 sidebar_position: 0
-slug: /room
+slug: /general/room
 ---
 
 ```txt title="Sơ đồ phòng ban"

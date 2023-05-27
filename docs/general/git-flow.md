@@ -2,7 +2,7 @@
 title: Quy trình Git Flow
 sidebar_label: "Git Flow"
 sidebar_position: 3
-slug: /git-flow
+slug: /general/git-flow
 ---
 
 ![git flow](./img/git-flow.jpg)

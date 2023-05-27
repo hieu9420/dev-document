@@ -2,7 +2,7 @@
 title: Cài đặt môi trường
 sidebar_label: "Cài đặt môi trường"
 sidebar_position: 2
-slug: /env-congif
+slug: /general/env-congif
 ---
 
 Các công cụ, phần mềm dùng chung cho tất cả dự án mà bạn nên cài:

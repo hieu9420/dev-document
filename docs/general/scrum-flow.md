@@ -2,7 +2,7 @@
 title: Quy trình scrum trong phát triển phần mềm
 sidebar_label: "Quy trình scrum"
 sidebar_position: 4
-slug: /scrum-flow
+slug: /general/scrum-flow
 ---
 
 ![scrum flow](./img/scrum.png)
