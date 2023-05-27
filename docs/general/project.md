@@ -2,7 +2,7 @@
 title: Dự án
 sidebar_label: "Dự án"
 sidebar_position: 5
-slug: /project
+slug: /general/project
 ---
 
 ```

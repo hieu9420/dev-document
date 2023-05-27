@@ -2,7 +2,7 @@
 title: Quy tắc phòng lập trình
 sidebar_label: "Quy tắc"
 sidebar_position: 1
-slug: /rule
+slug: /general/rule
 ---
 
 Chào mừng các bạn đến với bài học nhập môn lập trình đầu tiên được phát triển và biên soạn bởi đội ngũ lập trình Oryza JSC. Hy vọng những tài liệu và bài học bên dưới sẽ giúp các bạn vững vàng hơn trong sự nghiệp coder
