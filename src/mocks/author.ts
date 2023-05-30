@@ -5,7 +5,7 @@ export interface IAuthor {
 }
 
 export const authorList: IAuthor[] = [
-  { name: "Lê Thành Hiếu", total: 20, tag: "Lê Thành Hiếu" },
+  { name: "Lê Thành Hiếu", total: 22, tag: "Lê Thành Hiếu" },
   { name: "Nguyễn Văn Phần", total: 1, tag: "Nguyễn Văn Phần" },
   { name: "Nguyễn Việt Minh Anh", total: 1, tag: "Nguyễn Việt Minh Anh" },
   { name: "Nguyễn Thị Thi Vũ", total: 1, tag: "Nguyễn Thị Thi Vũ" },
