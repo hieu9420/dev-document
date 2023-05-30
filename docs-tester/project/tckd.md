@@ -52,10 +52,10 @@ Bảng phân loại lỗi Oryza
 
 Chú thích khác
 
-| Ký hiệu | Mô tả                    |
-| ------- | ------------------------ |
-| CQ      | Lỗi chủ quan thuộc Oryza |
-| KQ      | Lỗi khách quan           |
+| Ký hiệu | Mô tả                                        |
+| ------- | -------------------------------------------- |
+| CQ      | Lỗi chủ quan thuộc Oryza (tương ứng -- và S) |
+| KQ      | Lỗi khách quan                               |
 
 #### Hướng dẫn test
 
@@ -66,12 +66,15 @@ Chú thích khác
 - Phân loại lỗi
 - Note
 
-**Bước 2:** Dựa theo thời gian trên sheet để tìm vfa chụp ảnh biển số phương tiện tương ứng biển trước và sau
+**Bước 2:** Dựa theo thời gian trên sheet để tìm vfa chụp ảnh biển số phương tiện tương ứng biển trước và sau điền vào cột **Link ảnh chụp từ Playback**
 
 Chú ý: Phân biệt lane 1 và 2 theo hướng dẫn sau:
 ![oryza](./img//tckd-3.jpg)
 
 **Bước 3:** Phân loại kết quả
+
+- KQ Oryza: điền phân loại KB, KHB...
+- Phân loại lỗi: điền KQ, hoặc CQ
 
 **Bước 4:** Tổng hợp
 
