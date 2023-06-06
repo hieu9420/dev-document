@@ -2,7 +2,7 @@
 title: Dự án
 sidebar_label: "Dự án"
 sidebar_position: 5
-slug: /project
+slug: /general/project
 ---
 
 ```
@@ -19,3 +19,9 @@ ORYZA
     ├──Bãi xe thông minh (Smart Parking)
     ├──Báo động (Obox Alarm)
 ```
+
+<div class="text-right">
+
+_Author: **Lê Thành Hiếu**_
+
+</div>

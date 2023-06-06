@@ -131,3 +131,9 @@ pm2 -f save
 ```
 
 Khởi động lại máy và sử dụng lệnh "pm2 ls" để xem kết quả
+
+<div class="text-right">
+
+_Author: **Lê Thành Hiếu**_
+
+</div>

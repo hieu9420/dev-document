@@ -14,3 +14,9 @@ slug: /file-uploads/rd/dev
 
 - Training SQL - SS1, [tải về](./assets/training%20sql%20-%20s1.pptx)
 - Training SQL - SS2, [tải về](./assets/Training%20SQL%20-%20SS2.pptx)
+
+<div class="text-right">
+
+_Author: **Lê Thành Hiếu**_
+
+</div>

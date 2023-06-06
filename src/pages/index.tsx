@@ -6,6 +6,7 @@ import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 
 import styles from "./index.module.css";
+import { authorList } from "../mocks/author";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -22,6 +23,46 @@ function HomepageHeader() {
             Docusaurus Tutorial - 5min ⏱️
           </Link>
         </div> */}
+        <h2>Đội ngũ đóng góp nội dung</h2>
+
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+            alignItems: "center",
+            flexWrap: "wrap",
+            gap: "5px",
+          }}
+        >
+          {authorList
+            .sort((a, b) => b.total - a.total)
+            .map((item, index) => (
+              <div
+                key={index}
+                style={{
+                  textAlign: "left",
+                  width: "fit-content",
+                  display: "flex",
+                  flexDirection: "row",
+                  fontWeight: "500",
+                }}
+                className="button button--secondary"
+              >
+                {item.name}
+                <div
+                  style={{
+                    background: "#78C6E720",
+                    padding: "0 5px",
+                    marginLeft: 10,
+                    borderRadius: 2,
+                  }}
+                >
+                  {item.total}
+                </div>
+              </div>
+            ))}
+        </div>
       </div>
     </header>
   );

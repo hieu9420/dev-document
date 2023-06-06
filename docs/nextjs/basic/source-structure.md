@@ -2,7 +2,7 @@
 title: Cấu trúc dự án
 sidebar_label: "Cấu trúc dự án"
 sidebar_position: 1
-slug: /frontend/nextjs/basic/1
+slug: /nextjs/basic/1
 ---
 
 ```bash title="Khởi tạo dự án mới"
@@ -32,7 +32,7 @@ my-project-name
 ├──styles //Style
 ├──theme //Cấu hình material UI
 ├──translate //Lưu trữ dữ liệu phiên dịch cho các ngôn ngữ
-├──utils //Cái hàm dùng chung cho cả dự án
+├──utils //Các hàm dùng chung cho cả dự án
 .env //Tệp lưu trữ các biến dùng chung cho mọi môi trường
 .env.development //Tệp lưu trữ các biến dùng chung cho môi trường dev - thực thi lúc npm run dev
 .env.production //Tệp lưu trữ các biến dùng chung cho môi trường product - thực thi lúc npm run start
@@ -50,3 +50,9 @@ tsconfig.json //File cấu hình typescript
 >
 > - Các biến môi trường muốn truy cập được trên trình duyệt phải thêm tiền tố \*\*NEXT_PUBLIC\*\*  
 >   Ví dụ: NEXT_PUBLIC_API_PATH=http://localhost:3100/
+
+<div class="text-right">
+
+_Author: **Lê Thành Hiếu**_
+
+</div>

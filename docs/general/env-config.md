@@ -2,7 +2,7 @@
 title: Cài đặt môi trường
 sidebar_label: "Cài đặt môi trường"
 sidebar_position: 2
-slug: /env-congif
+slug: /general/env-congif
 ---
 
 Các công cụ, phần mềm dùng chung cho tất cả dự án mà bạn nên cài:
@@ -62,6 +62,12 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 ```bash title="Nếu báo lỗi thì chạy thử câu sau, chọn yes to all"
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
+
+<div class="text-right">
+
+_Author: **Lê Thành Hiếu**_
+
+</div>
 
 [ssms]: https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16
 [git]: https://git-scm.com/

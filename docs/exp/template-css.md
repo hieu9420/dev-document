@@ -17,3 +17,9 @@ body {
   touch-action: manipulation !important;
 }
 ```
+
+<div class="text-right">
+
+_Author: **Lê Thành Hiếu**_
+
+</div>

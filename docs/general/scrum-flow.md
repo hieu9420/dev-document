@@ -2,7 +2,7 @@
 title: Quy trình scrum trong phát triển phần mềm
 sidebar_label: "Quy trình scrum"
 sidebar_position: 4
-slug: /scrum-flow
+slug: /general/scrum-flow
 ---
 
 ![scrum flow](./img/scrum.png)
@@ -48,3 +48,9 @@ Scrum là một framework về quy trình và quản lý giúp giải quyết c�
   _Thời điểm_: Kết thúc một chu kì  
   _Thời lượng_: 60 phút  
   _Mục tiêu_ : Giúp team hiểu được những việc đã đạt được và những việc chưa đạt được, từ đó tìm ra phương pháp cải tiến cũng như những kế hoạch, hành động phát triển.
+
+<div class="text-right">
+
+_Author: **Lê Thành Hiếu**_
+
+</div>

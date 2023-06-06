@@ -2,7 +2,7 @@
 title: Quy tắc phòng lập trình
 sidebar_label: "Quy tắc"
 sidebar_position: 1
-slug: /rule
+slug: /general/rule
 ---
 
 Chào mừng các bạn đến với bài học nhập môn lập trình đầu tiên được phát triển và biên soạn bởi đội ngũ lập trình Oryza JSC. Hy vọng những tài liệu và bài học bên dưới sẽ giúp các bạn vững vàng hơn trong sự nghiệp coder
@@ -45,3 +45,9 @@ Chào mừng các bạn đến với bài học nhập môn lập trình đầu 
 - Sáng 8h15p nhớ kéo source từ nhánh dev về merge lại với nhánh mình đang làm
 - Chiều 4h50 nhớ đẩy code lên nhánh, nếu code lỗi báo cáo lại team leader và **không đẩy code**
 - Tuân thủ git flow, xem thêm [tại đây](./git-flow)
+
+<div class="text-right">
+
+_Author: **Lê Thành Hiếu**_
+
+</div>

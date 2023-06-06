@@ -2,7 +2,7 @@
 title: Giới thiệu phòng ban
 sidebar_label: "Cấu trúc phòng ban"
 sidebar_position: 0
-slug: /room
+slug: /general/room
 ---
 
 ```txt title="Sơ đồ phòng ban"
@@ -14,6 +14,7 @@ ORYZA
     ├──Phòng công nghệ
     ├──Phòng lập trình application
     ├──Phòng lập trình IoT
+    ├──Phòng marketing
 ```
 
 ### Giám đốc khối
@@ -47,9 +48,21 @@ ORYZA
 
 > Thực tập sinh
 
-| Họ và tên       | Vị trí   | Số điện thoại                | Email            |
-| --------------- | -------- | ---------------------------- | ---------------- |
-| Trần Khánh Như  | Thực tập | [0353025059](tel:0353025059) | nhu.tk@oryza.vn  |
-| Lê Lưu Quốc Đạt | Thực tập | [0966872138](tel:0966872138) | dat.llq@oryza.vn |
-| Lâm Quang Huy   | Thực tập | [0383780054](tel:0383780054) | huy.lq@oryza.vn  |
-| Trần Minh Quân  | Thực tập | [0396634311](tel:0396634311) | quan.tm@oryza.vn |
+| Họ và tên       | Vị trí   | Số điện thoại                | Email            | Ngày bắt đầu | Ngày kết thúc |
+| --------------- | -------- | ---------------------------- | ---------------- | ------------ | ------------- |
+| Trần Khánh Như  | Thực tập | [0353025059](tel:0353025059) | nhu.tk@oryza.vn  | 08/05/2023   | ---           |
+| Lê Lưu Quốc Đạt | Thực tập | [0966872138](tel:0966872138) | dat.llq@oryza.vn | 08/05/2023   | ---           |
+| Lâm Quang Huy   | Thực tập | [0383780054](tel:0383780054) | huy.lq@oryza.vn  | 08/05/2023   | ---           |
+| Trần Minh Quân  | Thực tập | [0396634311](tel:0396634311) | quan.tm@oryza.vn | 23/05/2023   | ---           |
+
+> Đã hoàn tất thực tập
+
+| Họ và tên    | Vị trí   | Số điện thoại                | Email          | Ngày bắt đầu | Ngày kết thúc |
+| ------------ | -------- | ---------------------------- | -------------- | ------------ | ------------- |
+| Trịnh Anh Vũ | Thực tập | [0374806525](tel:0374806525) | vu.ta@oryza.vn | 27/02/2023   | 27/05/2023    |
+
+<div class="text-right">
+
+_Author: **Lê Thành Hiếu**_
+
+</div>
