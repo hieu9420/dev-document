@@ -14,8 +14,8 @@ Các dự án quản lý theo mô hình **Kanban**
 ### Cấu trúc quản lý dự án
 
 - **NEW BUG:** Nơi các bug phát hiện được đưa vào quá trình sửa lỗi
-- **PRODUCT BACKLOG:** Nới các bug, tính năng được lên kế hoạch
-- **SPRINT:** Quá trình tuần hoàn kéo dài 2-4 tuần tùy dự án (đa phần là 2 tuần) nơi các bug, tính năng cần đuwocj hoàn tất trong chu trình
+- **PRODUCT BACKLOG:** Nơi các bug, tính năng được lên kế hoạch
+- **SPRINT:** Quá trình tuần hoàn kéo dài 2-4 tuần tùy dự án (đa phần là 2 tuần) nơi các bug, tính năng cần được hoàn tất trong chu trình
 - **IN PROGESS:** Đánh dấu các bug, tính năng đang được sửa, phát triển
 - **TEST DEV:** Đánh dấu bug, tính năng đã hoàn tất và đang kiểm thử trong môi trường dev (dev tự test)
 - **TEST STAGING:** Đánh dấu bug, tính năng cần được test trên môi trường staging
