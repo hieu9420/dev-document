@@ -36,6 +36,10 @@ Các dự án quản lý theo mô hình **Kanban**
 - Tính năng thêm ở cột `PRODUCT BACKLOG`
 - Gắn nhãn phù hợp (nếu có)
 
+### Lưu đồ
+
+![bug](./img/bug.jpg)
+
 :::note
 Đến giai đoạn dev thực thi sẽ gắn thêm nhánh code trên tiêu đề. Ví dụ: [FixUpload][Bug] Không thể đính kèm tập tin vào bình luận
 :::
